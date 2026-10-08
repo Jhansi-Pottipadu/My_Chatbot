@@ -6,7 +6,7 @@ from groq import Groq
 # ---------------------------------------
 
 st.set_page_config(
-    page_title="Jhansi's AIbot",
+    page_title="Groq AI Chatbot",
     page_icon="🤖",
     layout="centered"
 )
@@ -24,7 +24,7 @@ client = Groq(api_key=GROQ_API_KEY)
 # TITLE
 # ---------------------------------------
 
-st.title("🤖 Groq AI Chatbot")
+st.title("🤖 Jhansi's AIbot")
 st.write("Ask anything and chat with Groq AI!")
 
 # ---------------------------------------

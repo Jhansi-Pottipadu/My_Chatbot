@@ -6,7 +6,7 @@ from groq import Groq
 # ---------------------------------------
 
 st.set_page_config(
-    page_title="Groq AI Chatbot",
+    page_title="Jhansi's AIbot",
     page_icon="🤖",
     layout="centered"
 )
